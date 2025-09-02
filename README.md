@@ -39,12 +39,12 @@ Este é um projeto backend em linguagem Java desenvolvido com SpringBoot. A apli
    ├──src/  
     ── pom.xml  
 ```
-## 📌**Endpoints**
+## 📌**Endpoints:**
 
 ![1755699990678](https://github.com/user-attachments/assets/20ad3c64-34ec-4189-8fd3-e5766228c678)
 
 - `GET /games`  
-retorna a lista de todos os jogos  
+retorna a lista de todos os jogos:  
 ```bash
 [  
   {  
@@ -56,7 +56,7 @@ retorna a lista de todos os jogos
 ```  
 
 - `GET /games/{id}`  
-retorna todas informações do jogo pelo id  
+retorna todas informações do jogo pelo id:  
 ```bash
 [  
   {  
@@ -73,7 +73,7 @@ retorna todas informações do jogo pelo id
 ]  
 ```
 - `GET /lists`  
-retorna todas listas de jogos  
+retorna todas listas de jogos:  
 ```bash
 [  
   {  
@@ -87,7 +87,7 @@ retorna todas listas de jogos
 | id | Long |  
 
 - `POST /lists/{listId}/replacement`  
-reposiciona o jogo numa lista  
+reposiciona o jogo numa lista:  
 ```bash
 {  
   "sourceIndex": 1,  
@@ -98,7 +98,7 @@ reposiciona o jogo numa lista
 |---|---|  
 | ReplacementDTO | Integer |  
 
-## 🙋Autora
+## 🙋Autora:  
 
 Amanda Fortuna dos Santos  
 www.linkedin.com/in/amanda-fortuna-4401a614a  

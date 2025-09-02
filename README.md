@@ -80,7 +80,7 @@ retorna todas listas de jogos
     "id": 1,  
     "name": "Favoritos"  
   }  
-]`  
+]  
 ```
 | Parâmetro | Tipo |  
 |---|---|  

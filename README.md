@@ -19,28 +19,29 @@ Este é um projeto backend em linguagem Java desenvolvido com SpringBoot. A apli
 ![WhatsApp Image 2025-08-21 at 15 38 47](https://github.com/user-attachments/assets/c0dc51ef-b97f-43db-9ecf-162cb7b60502)
 
 ## 📁**Estrutura**
-dslist/  
-  ├──src/  
-     ├── main/  
-     │   ├── java/  
-     │   │   └── com.devsuperior.dslist  
-     │   │        ├── config/           -> Config da aplicação  
-     │   │        ├── controllers/      -> Controle REST  
-     │   │        ├── dto/  
-     │   │        ├── entities/         -> entidades JPA (GameList)  
-     │   │        ├── projections/      -> interface get  
-     │   │        ├── repositories/     -> interfaces JPA (Integer newPosition)  
-     │   │        └── services/         -> Lógica do reposicionamento  
-     │   └── resources/  
-     │       ├── application.properties  
-     │       └── import.sql  
-├──Mavem Dependencies/  
-├──src/  
- ── pom.xml  
+   `dslist/  
+     ├──src/  
+        ├── main/  
+        │   ├── java/  
+        │   │   └── com.devsuperior.dslist  
+        │   │        ├── config/           -> Config da aplicação  
+        │   │        ├── controllers/      -> Controle REST  
+        │   │        ├── dto/  
+        │   │        ├── entities/         -> entidades JPA (GameList)  
+        │   │        ├── projections/      -> interface get  
+        │   │        ├── repositories/     -> interfaces JPA (Integer newPosition)  
+        │   │        └── services/         -> Lógica do reposicionamento  
+        │   └── resources/  
+        │       ├── application.properties  
+        │       └── import.sql  
+   ├──Mavem Dependencies/  
+   ├──src/  
+    ── pom.xml  `
 
 ## 📌**Endpoints**
-- ´GET/games
+- `GET/games`
 retorna a lista de todos os jogos
+
 | Parâmetro | Tipo |
 |---|---|
 | id | Long |
